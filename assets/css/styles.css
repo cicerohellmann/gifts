@@ -11,3 +11,8 @@ a {
 a:hover {
     color: #63B8FF;
 }
+
+img {
+    padding: 20px; /* Adjust this value to change the padding */
+    box-sizing: border-box;
+}
