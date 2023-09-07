@@ -12,12 +12,6 @@ a:hover {
     color: #63B8FF;
 }
 
-.img-container {
-    display: inline-block;
-    background-color: #181818;  /* Assuming this is the color of your dark theme */
-}
-
-.img-container img {
-    display: block;
-    margin: 50%;  /* This will provide the space around the image */
+img {
+    Padding: 50px; //padding positions
 }
