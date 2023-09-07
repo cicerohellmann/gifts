@@ -12,28 +12,12 @@ a:hover {
     color: #63B8FF;
 }
 
-.img-wrapper {
+.img-container {
     display: inline-block;
-    position: relative;
+    background-color: #181818;  /* Assuming this is the color of your dark theme */
 }
 
-.img-wrapper::before {
-    content: "";
+.img-container img {
     display: block;
-    padding-top: 5%;  /* Vertical padding */
-    padding-bottom: 5%;  /* Vertical padding */
-    padding-left: 5%;  /* Horizontal padding */
-    padding-right: 5%;  /* Horizontal padding */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #181818;
-    z-index: -1;
-}
-
-.img-wrapper img {
-    display: block;
-    position: relative;
+    margin: 50%;  /* This will provide the space around the image */
 }
