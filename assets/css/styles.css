@@ -1,1 +1,45 @@
+* {
+  padding: 2%;
+  box-sizing: border-box;
+}
 
+body {
+    background-color: #181818;
+    color: #EAEAEA;
+    font-family: Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #B0B0B0;  
+}
+
+h3 {
+  color: #B0B0B0;
+}
+
+
+Certainly! Here's the updated CSS with the Dusty Pink color (#D5A7A6):
+
+css
+Copy code
+a:link {
+    color: #D5A7A6;  /* Dusty Pink for regular links */
+}
+
+a:visited {
+    color: #B97C7B;  /* A slightly darker variation for visited links */
+}
+
+a:hover {
+    color: #BF8988;  /* A little brighter for hover effect */
+    text-decoration: underline;  /* Often added for usability, but it's up to you. */
+}
+
+a:active {
+    color: #A26665;  /* A deeper shade for the active state */
+}
