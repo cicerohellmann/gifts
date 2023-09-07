@@ -11,3 +11,15 @@ a {
 a:hover {
     color: #63B8FF;
 }
+
+.img-container {
+    display: inline-block;  /* Ensures the container fits the image size */
+    padding: 10%;  /* This padding will now be based on the container width, which fits the image */
+    background-color: #181818;  /* Same as your dark theme background color */
+}
+
+.img-container img {
+    display: block;  /* Removes any space below the image */
+    max-width: 100%;
+    height: auto;
+}
